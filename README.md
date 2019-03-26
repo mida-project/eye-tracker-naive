@@ -16,6 +16,8 @@ List of dependencies and recommended versions for this repository:
 
 - [Processing](http://www.processing.org/) (>= [v3.5.3](https://github.com/processing/processing/releases/tag/processing-0269-3.5.3))
 
+- [TobiiStream](http://hci.soc.napier.ac.uk/GazeTrack/TobiiStream.zip) (>= [v2.0.3](http://hci.soc.napier.ac.uk/GazeTrack/download/GazeTrack-2.zip))
+
 ### Analytical Use
 
 Tobii’s consumer eye trackers are primarily intended for personal interaction use and not for analytical purposes. Any application that stores or transfers eye tracking data must have a special license from Tobii ([Read more](https://analyticaluse.tobii.com/)). Please, apply for a license [here](https://analyticaluse.tobii.com/license-application-form/).
