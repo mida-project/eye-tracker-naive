@@ -4,6 +4,32 @@
 
 From an [early setup experiment](https://github.com/mida-project/eye-tracker-setup), we developed this [repository](https://github.com/mida-project/eye-tracker-naive). The repository is a naïve approach to measure and calculate the setup of [Tobii Eye Tracker 4C](https://gaming.tobii.com/product/tobii-eye-tracker-4c/) gazing information for [usability testing](https://github.com/MIMBCD-UI/prototype-breast-screening/wiki/User-Research#user-test-evaluations-) purpose. The [Tobii Eye Tracker 4C](https://gaming.tobii.com/product/tobii-eye-tracker-4c/) aims at providing an immersive reality without an headset. Also, with this product nothing stands between the screen and the immersive experience. Therefore, our clinicians will work with no interference of the device. This repository includes software from the [GazeTrack: Eye-tracking for Processing (Tobii EyeX and 4C)](http://hci.soc.napier.ac.uk/GazeTrack/) library developed by Prof. [Augusto Esteves](http://web.tecnico.ulisboa.pt/augusto.esteves/) ([@AugustoEst](https://github.com/AugustoEst)) for the [Processing](http://www.processing.org/) programming environment. It is also available on [GitHub](https://github.com/AugustoEst/gazetrack). The [GazeTrack](http://hci.soc.napier.ac.uk/GazeTrack/) is a library that supports basic gaze tracking for our [Tobii Eye Tracker 4C](https://gaming.tobii.com/product/tobii-eye-tracker-4c/) device. The repository is part of the work done by [SIPg](http://sipg.isr.tecnico.ulisboa.pt/), an [ISR-Lisboa](http://welcome.isr.tecnico.ulisboa.pt/) research group and [M-ITI](https://www.m-iti.org/), two [R&D Units](http://larsys.pt/index.php/facilities/) of [LARSyS](http://larsys.pt/). The project also involves the collaborative effort of [INESC-ID](http://www.inesc-id.pt/). Both [ISR-Lisboa](http://welcome.isr.tecnico.ulisboa.pt/) and [INESC-ID](http://www.inesc-id.pt/) are [Associate Laboratories](https://tecnico.ulisboa.pt/en/research-and-innovation/rd/associate-laboratories/) of [IST](http://tecnico.ulisboa.pt/) from [ULisboa](https://www.ulisboa.pt/).
 
+## Citing
+
+We kindly ask **scientific works and studies** that make use of the repository to cite it in their associated publications. Similarly, we ask **open-source** and **closed-source** works that make use of the repository to warn us about this use.
+
+You can cite our work using the following BibTeX entry:
+
+```
+@inproceedings{10.1145/3399715.3399744,
+author = {Calisto, Francisco Maria and Nunes, Nuno and Nascimento, Jacinto C.},
+title = {BreastScreening: On the Use of Multi-Modality in Medical Imaging Diagnosis},
+year = {2020},
+isbn = {9781450375351},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3399715.3399744},
+doi = {10.1145/3399715.3399744},
+abstract = {This paper describes the field research, design and comparative deployment of a multimodal medical imaging user interface for breast screening. The main contributions described here are threefold: 1) The design of an advanced visual interface for multimodal diagnosis of breast cancer (BreastScreening); 2) Insights from the field comparison of Single-Modality vs Multi-Modality screening of breast cancer diagnosis with 31 clinicians and 566 images; and 3) The visualization of the two main types of breast lesions in the following image modalities: (i) MammoGraphy (MG) in both Craniocaudal (CC) and Mediolateral oblique (MLO) views; (ii) UltraSound (US); and (iii) Magnetic Resonance Imaging (MRI). We summarize our work with recommendations from the radiologists for guiding the future design of medical imaging interfaces.},
+booktitle = {Proceedings of the International Conference on Advanced Visual Interfaces},
+articleno = {49},
+numpages = {5},
+keywords = {user-centered design, multimodality, medical imaging, human-computer interaction, healthcare systems, breast cancer, annotations},
+location = {Salerno, Italy},
+series = {AVI '20}
+}
+```
+
 ## Pre-Requisites
 
 The following list is showing the set of dependencies for this project. Please, install and build the recommended versions in your machine.
