@@ -11,22 +11,18 @@ We kindly ask **scientific works and studies** that make use of the repository t
 You can cite our work using the following BibTeX entry:
 
 ```
-@inproceedings{10.1145/3399715.3399744,
-author = {Calisto, Francisco Maria and Nunes, Nuno and Nascimento, Jacinto C.},
-title = {BreastScreening: On the Use of Multi-Modality in Medical Imaging Diagnosis},
-year = {2020},
-isbn = {9781450375351},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3399715.3399744},
-doi = {10.1145/3399715.3399744},
-abstract = {This paper describes the field research, design and comparative deployment of a multimodal medical imaging user interface for breast screening. The main contributions described here are threefold: 1) The design of an advanced visual interface for multimodal diagnosis of breast cancer (BreastScreening); 2) Insights from the field comparison of Single-Modality vs Multi-Modality screening of breast cancer diagnosis with 31 clinicians and 566 images; and 3) The visualization of the two main types of breast lesions in the following image modalities: (i) MammoGraphy (MG) in both Craniocaudal (CC) and Mediolateral oblique (MLO) views; (ii) UltraSound (US); and (iii) Magnetic Resonance Imaging (MRI). We summarize our work with recommendations from the radiologists for guiding the future design of medical imaging interfaces.},
-booktitle = {Proceedings of the International Conference on Advanced Visual Interfaces},
-articleno = {49},
-numpages = {5},
-keywords = {user-centered design, multimodality, medical imaging, human-computer interaction, healthcare systems, breast cancer, annotations},
-location = {Salerno, Italy},
-series = {AVI '20}
+@article{CALISTO2021102607,
+title = {Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification},
+journal = {International Journal of Human-Computer Studies},
+volume = {150},
+pages = {102607},
+year = {2021},
+issn = {1071-5819},
+doi = {https://doi.org/10.1016/j.ijhcs.2021.102607},
+url = {https://www.sciencedirect.com/science/article/pii/S1071581921000252},
+author = {Francisco Maria Calisto and Carlos Santiago and Nuno Nunes and Jacinto C. Nascimento},
+keywords = {Human-computer interaction, Artificial intelligence, Healthcare, Medical imaging, Breast cancer},
+abstract = {In this research, we take an HCI perspective on the opportunities provided by AI techniques in medical imaging, focusing on workflow efficiency and quality, preventing errors and variability of diagnosis in Breast Cancer. Starting from a holistic understanding of the clinical context, we developed BreastScreening to support Multimodality and integrate AI techniques (using a deep neural network to support automatic and reliable classification) in the medical diagnosis workflow. This was assessed by using a significant number of clinical settings and radiologists. Here we present: i) user study findings of 45 physicians comprising nine clinical institutions; ii) list of design recommendations for visualization to support breast screening radiomics; iii) evaluation results of a proof-of-concept BreastScreening prototype for two conditions Current (without AI assistant) and AI-Assisted; and iv) evidence from the impact of a Multimodality and AI-Assisted strategy in diagnosing and severity classification of lesions. The above strategies will allow us to conclude about the behaviour of clinicians when an AI module is present in a diagnostic system. This behaviour will have a direct impact in the clinicians workflow that is thoroughly addressed herein. Our results show a high level of acceptance of AI techniques from radiologists and point to a significant reduction of cognitive workload and improvement in diagnosis execution.}
 }
 ```
 
